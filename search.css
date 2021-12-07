@@ -1,0 +1,56 @@
+.search_box{
+    height: 450px; /*FOR DISPLAYING DIV IN CENTER OF SCREEN (JUSTIFY-CONTENT)*/
+    display: flex; 
+    justify-content: center;/*DISPLAY ITEMS IN CENTER WRT TO HEIGHT (TOP & BOTTOM) */
+    flex-direction: column; /*COLUMN TYPE DISPLAY OF FLEX*/
+    align-items: center; /*ALIGN ITEMS IN CENTER WRT LEFT RIGHT*/
+}
+#search_area{
+    padding: 20px;
+    width: 50%;
+    background-color: whitesmoke;
+    border:1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 2px black;
+}
+#tag{
+    font-family: Cambria,Georgia;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+#search_field{
+	width: 95%;
+    padding: 2%;
+    border-radius: 20px;
+    font-family: Cambria,Georgia;
+    font-size: larger;
+}
+.buttons_div{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.google{
+    background-color: blue;
+    color: white;
+}
+.youtube{
+    color: white;
+    background-color: red;
+}
+.google_scholor{
+    color: black;
+    background-color: cadetblue;
+}
+button{
+    border-radius: 20px;
+    width: max-content;
+    padding: 15px;
+    border: 1px solid black;
+}
+button:hover{
+	cursor : pointer;
+    background-color: whitesmoke;
+    color: black;
+}
